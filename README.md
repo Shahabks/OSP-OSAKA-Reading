@@ -1,37 +1,37 @@
-## Welcome to GitHub Pages
+## Technical Narrative of OSP for UPs-OSAKA
 
-You can use the [editor on GitHub](https://github.com/Shahabks/OSP-OSAKA-Reading/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### This version of OSP is customized for UP, an English School in Osaka-Japan. This version can measure the “Reading Rate” of a speaker and compare it with the average rate of non-native and native speakers.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+In this narrative, we explain how Mysol’s OSP-Reading-Rate works and look at the factors which influence the users’ Reading-Rate.
+The chief goal is to deploy Mysol’s OSP-Speaking-Rate in three phases, by which we measure the users’ Speaking-Rate, a critical component of the language delivery. 
+In phase-1, we focus on measuring only five types of suprasegmental features in utterances.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Inappropriate pausing         (IP)
+Absence of pausing            (AP)
+Absence of CV linking         (AL)
+Inappropriate lexical stress  (ILS)
+Inappropriate intonation       (II)
 
-```markdown
-Syntax highlighted code block
+The scientific way to measure one’s Reading/Speaking rate is in syllables per second. 
+OSP’s estimate of the “Reading Rate” is obtained by timing the user while reading a selection of text with a known syllables count.
+OSP evaluates the competency of the user by employing mathematical formulas and ETS’s independent speaking rubrics and philosophy (Educational Testing Service-USA). 
+OSP went through a Machine learning session, with an audio dataset of non-native and native English speakers. These audios ranged from just 2 minutes in length to just under 5 minutes. Speakers' topics were widely variable. 
 
-# Header 1
-## Header 2
-### Header 3
+Note, this is not the ”Speaking Rate”. Even if the user reads out loud, it’s not the same thing as a speaking rate.
+The best way to determine the user’s speaking rate is to time the user’s delivering a free speech. 
+All the annotations that will been analyzed by the current OSP-Reading are based on the mentioned rubrics and the non-native English speaker audios. We do not claim that these are 100% accurate or the only way the speech can be analyzed. We will upgrade the OSP algorithm. Your comments and feedback are most welcome. Please feel free to contact us and let us know your thoughts about the corpus.. 
 
-- Bulleted
-- List
+Step 1. Find a quiet place for recording Make sure to turn off all background machinery and electronic appliances, such as your mobile phones or TV set.
+Step 2. Set up your recording equipment
+	Plug in and test your microphone. Please do not put the microphone too close to your mouth(10-12 inches from the speaker is preferred)to avoid “p pops
+Step 3. Adjust the recording settings Before starting your recording, you must be certain that your machine sound recorder will record at DVD quality mono settings (44.10 kHz., 24-bit, mono).
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Shahabks/OSP-OSAKA-Reading/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+For each session of the student training, we recommend teachers select five types of sentences:
+wh- questions, 
+declarative sentences, 
+yes-no questions, 
+tag questions 
+closed-choice alternative questions
+which can help eliminate or counterbalance the effects of different sentence types on suprasegmental features produced by learners and reveal the segmental features in different sentence types. 
+The following five sentences corresponding to these sentence types were selected for further acoustic analysis. 
