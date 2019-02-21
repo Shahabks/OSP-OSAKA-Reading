@@ -35,3 +35,26 @@ tag questions
 closed-choice alternative questions
 which can help eliminate or counterbalance the effects of different sentence types on suprasegmental features produced by learners and reveal the segmental features in different sentence types. 
 The following five sentences corresponding to these sentence types were selected for further acoustic analysis. 
+
+<table border="1">
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
+  <tr>
+    <td>February</td>
+    <td>$80</td>
+  </tr>
+</table>
+
+
+
+DATASET	                  METRIC	OUR RESULT              PREVIOUS RECORD	       HUMAN
+Winograd Schema
+Challenge	accuracy (+)	70.70%	63.7%	92%+
+LAMBADA	accuracy (+)	63.24%	59.23%	95%+
+LAMBADA	perplexity (-)	8.6	99	~1-2
