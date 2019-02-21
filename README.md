@@ -36,25 +36,31 @@ closed-choice alternative questions
 which can help eliminate or counterbalance the effects of different sentence types on suprasegmental features produced by learners and reveal the segmental features in different sentence types. 
 The following five sentences corresponding to these sentence types were selected for further acoustic analysis. 
 
+## A quick perfrmance report on ML
+
 <table border="1">
   <tr>
-    <th>Month</th>
-    <th>Savings</th>
+    <th>Dataset</th>
+    <th>Metric</th>
+    <th>Accuracy</th>
+    <th>Precision</th>
+    <th>Recall (Sensitivity)</th>  
   </tr>
   <tr>
-    <td>January</td>
-    <td>$100</td>
+    <td>For native</td>
+    <td>Reading Rate</td>
+	<td>70%</td>
+	  <td>83%</td>
+	  <td>68%</td>
   </tr>
   <tr>
-    <td>February</td>
-    <td>$80</td>
+    <td>For Japanese-English speaker</td>
+    <td>Reading Rate</td>
+	<td>84%</td>
+	  <td>88%</td>
+	  <td>95%</td>
   </tr>
 </table>
 
 
 
-DATASET	                  METRIC	OUR RESULT              PREVIOUS RECORD	       HUMAN
-Winograd Schema
-Challenge	accuracy (+)	70.70%	63.7%	92%+
-LAMBADA	accuracy (+)	63.24%	59.23%	95%+
-LAMBADA	perplexity (-)	8.6	99	~1-2
